@@ -40,7 +40,7 @@ Traditional lenders can afford to take bigger risks. Startups can’t. They need
 
 ### 4. Model Training & Thresholding
 - Model: **Random Forest** with class_weight='balanced'
-- Custom threshold = **0.7** for high precision
+- Custom threshold = **0.5** for high precision
 - Baseline comparison: Random Forest vs XGBoost
 
 ### 5. Validation & Cutoffs
