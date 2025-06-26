@@ -54,6 +54,13 @@ Traditional lenders can afford to take bigger risks. Startups can’t. They need
 - Simulate default rates, approval rates, and loss
 - Visualize outputs using Tableau
 
+### Model Comparison & Evaluation
+
+| Metric                | Random Forest | XGBoost  |
+|-----------------------|---------------|----------|
+| **Precision (Val.)**  | **0.667**     | 0.312    |
+| **AUC (Val.)**        | **0.915**     | 0.944    |
+| **Confusion Matrix**  | [[221, 11], [14, 5]] | [[225, 7], [13, 7]] |
 ### 7. Business Strategy & Deployment
 - Use cross-tab logic for segment approval
 - Implement rule-based offer strategy (green/red segmentation)
